@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ReactMapGL, { AttributionControl } from 'react-map-gl'
+import ReactMapGL from 'react-map-gl'
 import './App.css'
 import { locationLatLng, mapConfig } from "./sampleData";
 import { Location } from "./genericTypes";

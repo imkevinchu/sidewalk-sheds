@@ -12,7 +12,6 @@ export const mapConfig: MapConfig = {
   minZoom: 9,
   type: "vector",
   style: "mapbox://styles/mapbox/streets-v12",
-  accessToken:
-    "",
+  accessToken: import.meta.env.VITE_MAPBOX_API_TOKEN,
   title: "Sidewalk Sheds"
 };
